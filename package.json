@@ -1,8 +1,6 @@
 {
   "name": "sport-2024",
   "version": "1.2.0",
-  "proxy": "https://api.football-data.org/v4/",
-  "homepage": "https://sport-2024.onrender.com/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.1",
@@ -45,8 +43,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "http-proxy-middleware": "^2.0.6"
   }
 }
