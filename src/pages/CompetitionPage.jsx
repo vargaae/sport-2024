@@ -111,7 +111,7 @@ const CompetitionPage = () => {
           color: "white",
         }}
       >
-        <Link to="/">COMPETITONS</Link> {">"} {matches?.competition?.name}{" "}
+        <Link to="/">COMPETITIONS</Link> {">"} {matches?.competition?.name}{" "}
         MATCHES
       </Typography>
       <div className="container">

@@ -31,7 +31,7 @@ function Header() {
                 color: "gold",
               }}
             >
-              Football App
+              SPORT App
             </Typography>
           </Toolbar>
         </Container>
