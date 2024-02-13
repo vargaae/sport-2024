@@ -1,8 +1,10 @@
-import { configureStore } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
+import { configureStore } from "@reduxjs/toolkit";
+import { footballApi } from "../features/Api/FootballApi";
 
 export const store = configureStore({
   reducer: {
-    counter: counterReducer,
+    [footballApi.reducerPath]: footballApi.reducer,
   },
+  middleware: (getDefaultMiddleware) =>
+    getDefaultMiddleware().concat(footballApi.middleware),
 });
