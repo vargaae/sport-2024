@@ -21,8 +21,8 @@ const Footer = () => {
       </div>
 
       <div className="footer__item footer__item--end">
-        <h2>Football Web Application</h2>
-        <p>Keep track of information about football competitions</p>
+        <h2>SportDATA Web Application</h2>
+        <p>Keep track of information about sport competitions</p>
       </div>
     </section>
   );

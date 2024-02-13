@@ -100,7 +100,7 @@ const EventPage = (matchId) => {
           color: "white",
         }}
       >
-        <Link to="/">COMPETITONS</Link> {">"}{" "}
+        <Link to="/">COMPETITIONS</Link> {">"}{" "}
         <Link to={`/${match?.competition?.id}`}>
           {match?.competition?.name}
         </Link>{" "}

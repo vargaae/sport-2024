@@ -47,7 +47,7 @@ const Banner = () => {
               fontFamily: "Montserrat",
             }}
           >
-            Football-data Application
+            Sport-data Application
           </Typography>
           <Typography
             variant="subtitle2"
@@ -57,7 +57,7 @@ const Banner = () => {
               color: "white",
             }}
           >
-            Keep track of information about football competitions
+            Keep track of information about sport competitions
           </Typography>
           <Carousel />
         </div>

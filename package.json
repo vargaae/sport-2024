@@ -1,6 +1,6 @@
 {
   "name": "sport-2024",
-  "version": "0.1.0",
+  "version": "1.2.0",
   "proxy": "https://api.football-data.org/v4/",
   "homepage": "http://localhost:3000/",
   "private": true,
