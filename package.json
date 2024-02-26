@@ -2,7 +2,7 @@
   "name": "sport-2024",
   "version": "0.1.0",
   "proxy": "https://api.football-data.org/v4/",
-  "homepage": "http://localhost:3000/",
+  "homepage": "https://vargaae.hu/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.1",
@@ -19,7 +19,6 @@
     "react-router-dom": "^6.18.0",
     "react-scripts": "5.0.1",
     "sass": "^1.69.5",
-    "serve": "^14.2.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
