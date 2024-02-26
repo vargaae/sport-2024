@@ -2,7 +2,7 @@ import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 
 const footballApiHeaders = {
   "X-Auth-Token": "7d521de6fca840418e1b20adaa7c4ebc",
-  "Access-Control-Allow-Origin": "https://vargaae.hu/",
+  "Access-Control-Allow-Origin": "https://sport-2024.onrender.com/",
   "Access-Control-Allow-Methods": "GET, POST, PUT",
   "Access-Control-Allow-Headers": "Content-Type",
 };
