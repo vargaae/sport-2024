@@ -2,15 +2,20 @@ import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 
 const footballApiHeaders = {
   "X-Auth-Token": "7d521de6fca840418e1b20adaa7c4ebc",
-  "Access-Control-Allow-Origin": "*",
+  "Access-Control-Allow-Origin": "http://localhost",
+  "Access-Control-Allow-Origin": "https://vargaae.hu/",
   "Access-Control-Allow-Methods": "POST, GET, OPTIONS, HEAD, PUT",
   "Access-Control-Allow-Headers": "Content-Type",
 };
 
-// const baseUrl = "";
-const baseUrl = "https://api.football-data.org/v4/";
+const baseUrl = "";
+// const baseUrl = "https://api.football-data.org/v4/";
 
-const createRequest = (url) => ({ url, headers: footballApiHeaders });
+const createRequest = (url) => ({
+  url,
+  method: "GET",
+  headers: footballApiHeaders,
+});
 
 export const footballApi = createApi({
   reducerPath: "footballApi",
