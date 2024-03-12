@@ -47,7 +47,7 @@ const Banner = () => {
               fontFamily: "Montserrat",
             }}
           >
-            Sport-data Application
+            SportDATA Application
           </Typography>
           <Typography
             variant="subtitle2"

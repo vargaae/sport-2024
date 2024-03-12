@@ -1,10 +1,11 @@
 import { configureStore } from "@reduxjs/toolkit";
-import { footballApi } from "../features/Api/FootballApi";
+
+import { sportApi } from "../features/Api/SportApi";
 
 export const store = configureStore({
   reducer: {
-    [footballApi.reducerPath]: footballApi.reducer,
+    [sportApi.reducerPath]: sportApi.reducer,
   },
   middleware: (getDefaultMiddleware) =>
-    getDefaultMiddleware().concat(footballApi.middleware),
+    getDefaultMiddleware().concat(sportApi.middleware),
 });
