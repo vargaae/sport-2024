@@ -1,18 +1,18 @@
-# Sport Web App with breadcrumbs navigation - Reacts+Redux
+# SportDATA Web App with breadcrumbs navigation - React+Redux
 
 <div align="center">
   <img alt="Application image" src="https://github.com/vargaae/football-bg/blob/main/public/footballapp.png" />
 </div>
 <br>
 <p align="center">
-Sport App fetches data from different API-s about sport championships, matches like football-data.org with RTK API Query.
+Sport App fetches data from different API-s about sport championships, matches like LiveScore API with RTK API Query.
 </p>
  🚀 Deployed on Render : 
  (https://sport-2024.onrender.com)
 <img alt="Application image" src="https://i.pinimg.com/474x/8b/7c/ac/8b7cac4d85303b79158dd3cf2d9b63c8.jpg"/>
  
 ## 🛠 Front End: 
-- ReactJS 18s
+- React 18.2
 - Redux Toolkit
 - JavaScript
 - SASS
