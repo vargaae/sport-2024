@@ -8,21 +8,23 @@ const Footer = () => {
           <li>
             Data from{" "}
             <a
-              href="https://www.football-data.org/"
+              href="https://rapidapi.com/"
               target="_blank"
               rel="noreferrer"
             >
-              football-data.org API
+              RAPID API
             </a>
           </li>
           <li>Competitions</li>
           <li>Matches</li>
+          <li>by Andras Varga</li>
+          <li>2024</li>
         </ul>
       </div>
 
       <div className="footer__item footer__item--end">
-        <h2>Football Web Application</h2>
-        <p>Keep track of information about football competitions</p>
+        <h2>SportDATA Web Application</h2>
+        <p>Keep track of information about sport competitions</p>
       </div>
     </section>
   );

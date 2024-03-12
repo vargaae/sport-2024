@@ -9,9 +9,9 @@ import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardActionArea from "@mui/material/CardActionArea";
 import {
-  footballApi,
+  sportApi,
   useGetMatchDetailsQuery,
-} from "../features/Api/FootballApi";
+} from "../features/Api/SportApi";
 
 // const useStyles = makeStyles((theme) => ({
 //   root: {
@@ -63,7 +63,7 @@ const EventPage = (matchId) => {
   function handleRefetchTwo() {
     // has the same effect as `refetch` for the associated query
     dispatch(
-      footballApi.endpoints.getCompetitions.initiate(
+      sportApi.endpoints.getCompetitions.initiate(
         { count: 5 },
         { subscribe: false, forceRefetch: true }
       )

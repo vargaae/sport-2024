@@ -3,7 +3,7 @@ import "./competition-page.styles.scss";
 import { useDispatch } from "react-redux";
 import { useParams } from "react-router-dom";
 import { Link } from "react-router-dom";
-import { footballApi, useGetMatchesQuery } from "../features/Api/FootballApi";
+import { sportApi, useGetMatchesQuery } from "../features/Api/SportApi";
 // import { makeStyles } from "@mui/styles";
 import { useTheme } from "@mui/material/styles";
 import LinearProgress from "@mui/material/LinearProgress";
@@ -74,7 +74,7 @@ const CompetitionPage = () => {
   function handleRefetchTwo() {
     // has the same effect as `refetch` for the associated query
     dispatch(
-      footballApi.endpoints.getCompetitions.initiate(
+      sportApi.endpoints.getCompetitions.initiate(
         { count: 5 },
         { subscribe: false, forceRefetch: true }
       )
