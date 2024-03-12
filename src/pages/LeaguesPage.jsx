@@ -67,7 +67,7 @@ const LeaguesPage = (matchId) => {
         {competitions?.Ccg
           .map((league) => {
             return (
-              <Link to={`/tennis/${league.Ccd}`} key={league.Cid}>
+              <Link to={`/${id}/${league.Ccd}`} key={league.Cid}>
                 <div className="competitionlist">
                   <span>{league?.Cnm}</span>
                 </div>
