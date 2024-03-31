@@ -8,11 +8,11 @@
 <p align="center"> (https://sportdata-next-2024.onrender.com)
  GIT REPOSITORY: (https://github.com/vargaae/sportdata-next-2024)</p>
  
-<p align="center">
-Sport App fetches data from different API-s about sport championships, matches like football-data.org with RTK API Query.</p>
-<p align="center">  - THIS REPO IS IN PROCESS -> MORE SPORTS WILL BE GET FROM APIS: football + cricket + basketball + tennis + hockey
+<h2 align="center">
+Sport App fetches data from different API-s about sport championships, matches like football-data.org with RTK API Query.</h2>
+<h3 align="center">  - THIS REPO IS IN PROCESS -> MORE SPORTS WILL BE GET FROM APIS: football + cricket + basketball + tennis + hockey
   - NOW YOU CAN GET THE COMPETITIONS LIST
-</p>
+</h3>
  🚀 Deployed on Render : 
  (https://sport-2024.onrender.com)
  
