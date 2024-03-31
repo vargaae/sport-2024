@@ -4,15 +4,20 @@
   <img alt="Application image" src="https://github.com/vargaae/football-bg/blob/main/public/footballapp.png" />
 </div>
 <br>
+ 🚀 NEW NEXTJS VERSION OF SPORTDATA APP with Football-data and News - Deployed on Render : 
+ (https://sportdata-next-2024.onrender.com)
+ GIT REPOSITORY: (https://github.com/vargaae/sportdata-next-2024)
+ 
 <p align="center">
 Sport App fetches data from different API-s about sport championships, matches like football-data.org with RTK API Query.
+  - THIS REPO IS IN PROCESS -> MORE SPORTS WILL BE GET FROM APIS: football + cricket + basketball + tennis + hockey
+  - NOW YOU CAN GET THE COMPETITIONS LIST
 </p>
  🚀 Deployed on Render : 
  (https://sport-2024.onrender.com)
-<img alt="Application image" src="https://i.pinimg.com/474x/8b/7c/ac/8b7cac4d85303b79158dd3cf2d9b63c8.jpg"/>
  
 ## 🛠 Front End: 
-- ReactJS 18s
+- ReactJS 18.2
 - Redux Toolkit
 - JavaScript
 - SASS
